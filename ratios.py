@@ -218,7 +218,7 @@ G9 = 3*((D**2)*x[2]*(D*x[2] + D*np.sqrt(D-1)*x[3])) + 3*((D**2)*x[2]*(D*x[0])*(x
 G10 = 3*(D**4)*(x[2]**2) + 6*(D**4)*x[2]*(x[0]**2) + (D*x[0])**4
 
 # The ratios for each graph are then printed.
-print("\n Experimental vs. Theoretical node graph ratio results:")
+print("\n Theoretical vs. Experimental graph ratio results:")
 
 print(" G1 ratio:", G1/float(mat_exp_cuqu[0]), "\n G2 ratio:", G2/float(mat_exp_cuqu[1]),
       "\n G3 ratio:", G3/float(mat_exp_cuqu[2]), "\n G4 ratio:", G4/float(mat_exp_cuqu[3]),
